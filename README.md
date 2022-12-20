@@ -1,4 +1,8 @@
-# Lab 1 - Snakes Cafe
+# LAB - Class 01 - Snakes Cafe
+## Author
 
-## Author - Jason Christopher
+* Jason Christopher
 
+## Description
+
+* A menu and order tracker that is run in the terminal.
