@@ -59,7 +59,11 @@ while ask_again:
         break
     if user_input.lower() in order.keys():
         order[user_input] += 1
-        print(f"** {order[user_input]} orders of {user_input} have been added to your meal **")
+        if order[user_input] == 1:
+            orders_text = "order"
+        else:
+            orders_text = "orders"
+        print(f"** {order[user_input]} {orders_text} of {user_input} have been added to your meal **")
     else:
         print("That item is not on our menu. Please try again.")
 
